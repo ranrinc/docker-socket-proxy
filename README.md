@@ -29,8 +29,8 @@ docker -H tcp://$HOST:2376 --tlsverify --tlscacert=ca.pem --tlscert=cert.pem --t
 ```
 
 You can also use either of the provided docker-compose files as a starting point:
-- [docker-compose.yml](https://github.com/sjawhar/docker-socket-proxy/blob/master/docker-compose.yml)
-- [docker-compose.swarm.yml](https://github.com/sjawhar/docker-socket-proxy/blob/master/docker-compose.swarm.yml)
+- [docker-compose.yml](https://github.com/ranrinc/docker-socket-proxy/blob/master/docker-compose.yml)
+- [docker-compose.swarm.yml](https://github.com/ranrinc/docker-socket-proxy/blob/master/docker-compose.swarm.yml)
 
 
 ## Why?  
@@ -50,4 +50,4 @@ Personally, I use it so that CI/CD build agents running on the intranet can secu
 ## Additional Commands
 Any commands used in `docker run` will be passed as options to socat. You can use this to customize things like verbosity (`-ddd`), log format (`-lmlocal2`), timeout interval (`-t 1000000`), and more. See the [socat docs](http://www.dest-unreach.org/socat/doc/socat.html) for more info on available options.
 
-
+P.S. I'm just forking Sami Jawhar Repo to make more docker hub image to be used by other platform such as arm64 and arm 

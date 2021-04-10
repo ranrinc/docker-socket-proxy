@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   docker-socket-proxy:
-    image: sjawhar/docker-socket-proxy
+    image: ranrinc/docker-socket-proxy
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports:

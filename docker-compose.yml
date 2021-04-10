@@ -2,7 +2,7 @@ version: '3'
 services:
   docker-socket-proxy:
     build: .
-    image: sjawhar/docker-socket-proxy
+    image: ranrinc/docker-socket-proxy
     volumes:
       - "./server-keys:/server-keys:ro"
       - "/var/run/docker.sock:/var/run/docker.sock"
