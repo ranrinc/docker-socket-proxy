@@ -51,3 +51,9 @@ Personally, I use it so that CI/CD build agents running on the intranet can secu
 Any commands used in `docker run` will be passed as options to socat. You can use this to customize things like verbosity (`-ddd`), log format (`-lmlocal2`), timeout interval (`-t 1000000`), and more. See the [socat docs](http://www.dest-unreach.org/socat/doc/socat.html) for more info on available options.
 
 P.S. I'm just forking Sami Jawhar Repo to make more docker hub image to be used by other platform such as arm64 and arm 
+
+## Thank you and  Cheers
+
+If you like this fork you can always
+
+<a href="https://www.buymeacoffee.com/rltirtadji"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=rltirtadji&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
